@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 240" role="img" aria-label="Tarcza ozdobna: srebrna lilia stylizowana">
+<!-- Tarcza ozdobna (dekoracja) — nie jest herbem żadnej miejscowości. -->
+<defs>
+<linearGradient id="g10" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F6DE8D"/><stop offset=".45" stop-color="#D4AF37"/><stop offset="1" stop-color="#8C6B12"/></linearGradient>
+<linearGradient id="f10" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#E4283F"/><stop offset="1" stop-color="#A9102A"/></linearGradient>
+<linearGradient id="s10" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".26"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<clipPath id="c10"><path d="M17,17 H183 V128 C183,183 146,211 100,224 C54,211 17,183 17,128 Z"/></clipPath>
+</defs>
+<path fill="url(#g10)" d="M8,8 H192 V128 C192,190 150,220 100,234 C50,220 8,190 8,128 Z"/>
+<g clip-path="url(#c10)"><rect x="0" y="0" width="200" height="240" fill="url(#f10)"/><g fill="#F4F4F2"><path d="M100,44 L118,86 L100,100 L82,86 Z"/><path d="M100,100 L150,80 L140,120 L100,124 Z"/><path d="M100,100 L50,80 L60,120 L100,124 Z"/><path d="M100,124 L124,190 L100,176 L76,190 Z"/></g></g>
+<path fill="url(#s10)" d="M17,17 H183 V92 C130,108 70,108 17,92 Z"/>
+</svg>

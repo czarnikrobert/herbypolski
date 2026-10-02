@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 240" role="img" aria-label="Herb: Gmina Liszki (miejsce na oficjalny plik herbu)">
+<!-- MIEJSCE NA HERB: Gmina Liszki. Podmień ten plik na oficjalny herb (SVG/PNG) otrzymany od gminy/miasta. -->
+<defs><linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F6DE8D"/><stop offset=".45" stop-color="#D4AF37"/><stop offset="1" stop-color="#8C6B12"/></linearGradient><linearGradient id="gloss" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".22"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient><linearGradient id="field" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2C5AA0"/><stop offset="1" stop-color="#173A73"/></linearGradient></defs>
+<path fill="url(#gold)" d="M8,8 H192 V128 C192,190 150,220 100,234 C50,220 8,190 8,128 Z"/><path fill="url(#field)" d="M17,17 H183 V128 C183,183 146,211 100,224 C54,211 17,183 17,128 Z"/>
+<path d="M40,52 H160 M40,176 H160" stroke="url(#gold)" stroke-width="1.5" opacity=".7"/>
+<text x="100" y="146" text-anchor="middle" font-family="Playfair Display, Georgia, serif" font-size="92" font-weight="700" fill="url(#gold)">L</text>
+<path fill="url(#gloss)" d="M17,17 H183 V92 C130,108 70,108 17,92 Z"/>
+</svg>

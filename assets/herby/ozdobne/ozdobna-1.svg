@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 240" role="img" aria-label="Tarcza ozdobna: złoty krzyż na błękicie">
+<!-- Tarcza ozdobna (dekoracja) — nie jest herbem żadnej miejscowości. -->
+<defs>
+<linearGradient id="g1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F6DE8D"/><stop offset=".45" stop-color="#D4AF37"/><stop offset="1" stop-color="#8C6B12"/></linearGradient>
+<linearGradient id="f1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3565B8"/><stop offset="1" stop-color="#1B3F82"/></linearGradient>
+<linearGradient id="s1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".26"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<clipPath id="c1"><path d="M17,17 H183 V128 C183,183 146,211 100,224 C54,211 17,183 17,128 Z"/></clipPath>
+</defs>
+<path fill="url(#g1)" d="M8,8 H192 V128 C192,190 150,220 100,234 C50,220 8,190 8,128 Z"/>
+<g clip-path="url(#c1)"><rect x="0" y="0" width="200" height="240" fill="url(#f1)"/><path fill="url(#g1)" d="M88,40 H112 V100 H160 V124 H112 V210 H88 V124 H40 V100 H88 Z"/></g>
+<path fill="url(#s1)" d="M17,17 H183 V92 C130,108 70,108 17,92 Z"/>
+</svg>

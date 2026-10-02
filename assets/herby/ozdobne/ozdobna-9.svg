@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 240" role="img" aria-label="Tarcza ozdobna: czerwona krokiew na złocie">
+<!-- Tarcza ozdobna (dekoracja) — nie jest herbem żadnej miejscowości. -->
+<defs>
+<linearGradient id="g9" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F6DE8D"/><stop offset=".45" stop-color="#D4AF37"/><stop offset="1" stop-color="#8C6B12"/></linearGradient>
+<linearGradient id="f9" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F2C94C"/><stop offset="1" stop-color="#C9981E"/></linearGradient>
+<linearGradient id="s9" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".26"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<clipPath id="c9"><path d="M17,17 H183 V128 C183,183 146,211 100,224 C54,211 17,183 17,128 Z"/></clipPath>
+</defs>
+<path fill="url(#g9)" d="M8,8 H192 V128 C192,190 150,220 100,234 C50,220 8,190 8,128 Z"/>
+<g clip-path="url(#c9)"><rect x="0" y="0" width="200" height="240" fill="url(#f9)"/><path d="M20,196 L100,86 L180,196 L152,196 L100,124 L48,196 Z" fill="#B3162F"/><polygon fill="#B3162F" points="100.0,38.0 104.9,51.2 119.0,51.8 108.0,60.6 111.8,74.2 100.0,66.4 88.2,74.2 92.0,60.6 81.0,51.8 95.1,51.2"/></g>
+<path fill="url(#s9)" d="M17,17 H183 V92 C130,108 70,108 17,92 Z"/>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 240" role="img" aria-label="Tarcza ozdobna: srebrny skos z gwiazdami">
+<!-- Tarcza ozdobna (dekoracja) — nie jest herbem żadnej miejscowości. -->
+<defs>
+<linearGradient id="g8" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F6DE8D"/><stop offset=".45" stop-color="#D4AF37"/><stop offset="1" stop-color="#8C6B12"/></linearGradient>
+<linearGradient id="f8" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3565B8"/><stop offset="1" stop-color="#1B3F82"/></linearGradient>
+<linearGradient id="s8" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".26"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<clipPath id="c8"><path d="M17,17 H183 V128 C183,183 146,211 100,224 C54,211 17,183 17,128 Z"/></clipPath>
+</defs>
+<path fill="url(#g8)" d="M8,8 H192 V128 C192,190 150,220 100,234 C50,220 8,190 8,128 Z"/>
+<g clip-path="url(#c8)"><rect x="0" y="0" width="200" height="240" fill="url(#f8)"/><path d="M-10,20 L40,-10 L220,200 L170,240 Z" fill="#F4F4F2"/><polygon fill="url(#g8)" points="58.0,132.0 62.4,143.9 75.1,144.4 65.2,152.3 68.6,164.6 58.0,157.6 47.4,164.6 50.8,152.3 40.9,144.4 53.6,143.9"/><polygon fill="url(#g8)" points="146.0,50.0 150.4,61.9 163.1,62.4 153.2,70.3 156.6,82.6 146.0,75.6 135.4,82.6 138.8,70.3 128.9,62.4 141.6,61.9"/></g>
+<path fill="url(#s8)" d="M17,17 H183 V92 C130,108 70,108 17,92 Z"/>
+</svg>

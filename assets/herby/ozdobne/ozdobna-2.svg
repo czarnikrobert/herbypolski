@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 240" role="img" aria-label="Tarcza ozdobna: srebrna wieża na zieleni">
+<!-- Tarcza ozdobna (dekoracja) — nie jest herbem żadnej miejscowości. -->
+<defs>
+<linearGradient id="g2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F6DE8D"/><stop offset=".45" stop-color="#D4AF37"/><stop offset="1" stop-color="#8C6B12"/></linearGradient>
+<linearGradient id="f2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2F8A4E"/><stop offset="1" stop-color="#1A5C32"/></linearGradient>
+<linearGradient id="s2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".26"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<clipPath id="c2"><path d="M17,17 H183 V128 C183,183 146,211 100,224 C54,211 17,183 17,128 Z"/></clipPath>
+</defs>
+<path fill="url(#g2)" d="M8,8 H192 V128 C192,190 150,220 100,234 C50,220 8,190 8,128 Z"/>
+<g clip-path="url(#c2)"><rect x="0" y="0" width="200" height="240" fill="url(#f2)"/><g fill="#EEF0F2" stroke="#9AA1A8" stroke-width="1.5"><path d="M64,190 V92 H74 V78 H86 V92 H94 V78 H106 V92 H114 V78 H126 V92 H136 V190 Z"/></g><path d="M88,190 V156 A12,12 0 0 1 112,156 V190 Z" fill="#1A3D26"/><rect x="92" y="112" width="16" height="20" rx="8" fill="#1A3D26"/></g>
+<path fill="url(#s2)" d="M17,17 H183 V92 C130,108 70,108 17,92 Z"/>
+</svg>
