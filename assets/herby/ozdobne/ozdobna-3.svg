@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 240" role="img" aria-label="Tarcza ozdobna: tarcza dzielona w słup ze złotą gwiazdą">
+<!-- Tarcza ozdobna (dekoracja) — nie jest herbem żadnej miejscowości. -->
+<defs>
+<linearGradient id="g3" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F6DE8D"/><stop offset=".45" stop-color="#D4AF37"/><stop offset="1" stop-color="#8C6B12"/></linearGradient>
+<linearGradient id="f3" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#E4283F"/><stop offset="1" stop-color="#A9102A"/></linearGradient>
+<linearGradient id="s3" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".26"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<clipPath id="c3"><path d="M17,17 H183 V128 C183,183 146,211 100,224 C54,211 17,183 17,128 Z"/></clipPath>
+</defs>
+<path fill="url(#g3)" d="M8,8 H192 V128 C192,190 150,220 100,234 C50,220 8,190 8,128 Z"/>
+<g clip-path="url(#c3)"><rect x="0" y="0" width="200" height="240" fill="url(#f3)"/><rect x="100" y="0" width="100" height="240" fill="#F4F4F2"/><polygon fill="url(#g3)" points="100.0,76.0 110.4,103.7 139.9,105.0 116.8,123.5 124.7,152.0 100.0,135.6 75.3,152.0 83.2,123.5 60.1,105.0 89.6,103.7"/></g>
+<path fill="url(#s3)" d="M17,17 H183 V92 C130,108 70,108 17,92 Z"/>
+</svg>

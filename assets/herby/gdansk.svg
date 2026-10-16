@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 240" role="img" aria-label="Herb Gdańska (szkic poglądowy)">
+<!-- Szkic poglądowy. Do publikacji użyj oficjalnego pliku herbu od miasta. -->
+<defs><linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F6DE8D"/><stop offset=".45" stop-color="#D4AF37"/><stop offset="1" stop-color="#8C6B12"/></linearGradient><linearGradient id="gloss" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".22"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient><linearGradient id="field" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#E4283F"/><stop offset="1" stop-color="#A9102A"/></linearGradient>
+<path id="cross" fill="#fff" d="M-7,-30 H7 L9,-9 L30,-7 V7 L9,9 L7,30 H-7 L-9,9 L-30,7 V-7 L-9,-9 Z"/></defs>
+<path fill="url(#gold)" d="M8,8 H192 V128 C192,190 150,220 100,234 C50,220 8,190 8,128 Z"/><path fill="url(#field)" d="M17,17 H183 V128 C183,183 146,211 100,224 C54,211 17,183 17,128 Z"/>
+<g fill="url(#gold)"><path d="M70,68 L66,40 L80,52 L90,32 L100,50 L110,32 L120,52 L134,40 L130,68 Z"/><rect x="68" y="68" width="64" height="8" rx="2"/></g>
+<g fill="#F6DE8D"><circle cx="66" cy="40" r="3"/><circle cx="90" cy="32" r="3"/><circle cx="110" cy="32" r="3"/><circle cx="134" cy="40" r="3"/><circle cx="100" cy="47" r="3.4"/></g>
+<use href="#cross" transform="translate(100 118)"/>
+<use href="#cross" transform="translate(100 180) scale(.92)"/>
+<path fill="url(#gloss)" d="M17,17 H183 V92 C130,108 70,108 17,92 Z"/>
+</svg>
