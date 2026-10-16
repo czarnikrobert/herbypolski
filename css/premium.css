@@ -255,6 +255,29 @@ p { margin: 0 0 1em; }
 .frames > li { display: flex; }
 .frame img { height: 125px; width: auto; max-width: 100%; object-fit: contain; margin-bottom: 1rem; filter: drop-shadow(0 10px 10px rgba(60,10,20,.25)); transition: transform .45s var(--ease); }
 .frame:hover img { transform: scale(1.06); }
+
+/* Połysk złoceń herbu: nad herbem leży warstwa samych złoceń (rozjaśnione złoto).
+   .gilded__shine — pulsujący blask; .gilded__glint — odblask przesuwający się po złoceniach.
+   Maska odblasku to gradient CSS (bez pobierania plików) — działa też z file://. */
+.gilded { position: relative; display: inline-block; line-height: 0; transition: transform .45s var(--ease); }
+.gilded > img { display: block; margin: 0 !important; }
+.gilded > .gilded__shine, .gilded > .gilded__glint { position: absolute; inset: 0; width: 100% !important; height: 100% !important; max-width: none; filter: none !important; pointer-events: none; }
+.gilded__shine { opacity: 0; animation: gild-glow 3.6s ease-in-out infinite; }
+.gilded > .gilded__glint { filter: brightness(1.55) saturate(.85) !important; }
+.gilded__glint {
+  -webkit-mask-image: linear-gradient(105deg, transparent 41%, #000 50%, transparent 59%);
+          mask-image: linear-gradient(105deg, transparent 41%, #000 50%, transparent 59%);
+  -webkit-mask-size: 300% 100%; mask-size: 300% 100%;
+  -webkit-mask-repeat: no-repeat; mask-repeat: no-repeat;
+  -webkit-mask-position: 100% 0; mask-position: 100% 0;
+  animation: gild-sweep 3.6s cubic-bezier(.45, 0, .35, 1) infinite; }
+@keyframes gild-sweep {
+  0% { -webkit-mask-position: 100% 0; mask-position: 100% 0; }
+  60%, 100% { -webkit-mask-position: 0% 0; mask-position: 0% 0; } }
+@keyframes gild-glow { 0%, 100% { opacity: 0; } 35% { opacity: .6; } 65% { opacity: .15; } }
+.frame .gilded { margin-bottom: 1rem; }
+.frame:hover .gilded { transform: scale(1.06); }
+.frame:hover .gilded img { transform: none; }
 .frame h3 { font: 600 .92rem/1.2 var(--f-caps); letter-spacing: .06em; margin-bottom: .3rem; }
 .frame p { margin: 0; font-size: .82rem; color: var(--muted); line-height: 1.45; }
 .frame__more { margin-top: .8rem; font: 600 .68rem var(--f-caps); letter-spacing: .16em; color: var(--red); }
@@ -313,8 +336,7 @@ p { margin: 0 0 1em; }
 .place__pair { display: flex; align-items: flex-end; justify-content: center; gap: clamp(1rem, 4vw, 2.5rem); padding-bottom: 1.75rem; }
 .place__pair figure { margin: 0; display: flex; flex-direction: column; align-items: center; gap: .9rem; }
 .place__pair img { height: auto; filter: drop-shadow(0 16px 18px rgba(60,5,15,.4)); }
-.place__pair .pl img { height: clamp(150px, 20vw, 228px); width: auto; }
-.place__pair .loc img { height: clamp(112px, 15vw, 172px); width: auto; }
+.place__pair .loc img { height: clamp(150px, 20vw, 228px); width: auto; }
 .place__body { display: grid; grid-template-columns: 1.3fr 1fr; gap: clamp(1.5rem, 4vw, 2.5rem); padding: clamp(1.5rem, 4vw, 2.5rem) clamp(1.25rem, 4vw, 3rem) clamp(2rem, 4vw, 3rem); }
 .place__body h3 { font-size: 1.5rem; margin-top: 1.4rem; }
 .place__body h3:first-child { margin-top: 0; }

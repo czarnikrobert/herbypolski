@@ -7,7 +7,10 @@
    3. Pole "typ": "miasto" albo "gmina".
    4. "strona" (opcjonalnie) — adres oficjalnej strony miasta/gminy; przycisk
       „Zaplanuj wizytę” w karcie herbu otworzy ją w nowej karcie (bez pola → formularz kontaktowy).
-   5. "zweryfikuj: true" wyświetla na karcie dopisek, że opis czeka na
+   5. "zloto" (opcjonalnie) — warstwa złoceń herbu (WebP z przezroczystością, ten sam rozmiar
+      co plik herbu); złocone elementy dostają animowany połysk. Warstwę robi
+      narzedzia/generuj-warstwe-zlocen.js.
+   6. "zweryfikuj: true" wyświetla na karcie dopisek, że opis czeka na
       zatwierdzenie przez urząd — usuń go po weryfikacji treści.
    ========================================================================== */
 
@@ -18,6 +21,7 @@ window.HERBY = [
     typ: 'miasto',
     wojewodztwo: 'małopolskie',
     herb: 'assets/herby/krakow.webp',
+    zloto: 'assets/herby/krakow-zloto.webp',
     krotko: 'Królewskie miasto pod Wawelem',
     symbolika:
       'W błękitnym polu czerwony, ceglany mur z trzema blankowanymi wieżami i otwartą bramą o złotych wrotach i podniesionej bronie; w bramie biały orzeł w koronie, a nad tarczą korona. ' +

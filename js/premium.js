@@ -58,12 +58,20 @@
   }
   $$('.reveal').forEach(el => observe(el));
 
+  /* ---------- Herb z opcjonalnym połyskiem złoceń (pole „zloto” w danych) ---------- */
+  const herbImg = (h, attrs) => {
+    const img = `<img src="${esc(h.herb)}" ${attrs}>`;
+    if (!h.zloto) return img;
+    const layer = cls => `<img class="${cls}" src="${esc(h.zloto)}" alt="" aria-hidden="true">`;
+    return `<span class="gilded">${img}${layer("gilded__shine")}${layer("gilded__glint")}</span>`;
+  };
+
   /* ---------- Galeria herbów ---------- */
   const list = $('[data-gallery]');
   const card = (h, i) => `
     <li class="reveal" style="--d:${(i % 6) * .06}s">
       <button class="frame" type="button" data-open="${esc(h.slug)}" aria-haspopup="dialog">
-        <img src="${esc(h.herb)}" alt="" width="104" height="125" loading="lazy">
+        ${herbImg(h, 'alt="" width="104" height="125" loading="lazy"')}
         <h3>${esc(h.nazwa)}</h3>
         <p>${esc(h.krotko)}</p>
         <span class="frame__more">Poznaj miejsce</span>
@@ -101,8 +109,7 @@
         <h2 id="place-title">${esc(h.nazwa)}</h2>
         <p>${h.typ === 'gmina' ? 'Gmina' : 'Miasto'} · woj. ${esc(h.wojewodztwo)}</p>
         <div class="place__pair">
-          <figure class="pl"><img src="assets/herby/polska.webp" alt="Herb Polski"><figcaption class="brass brass--lg">HERB POLSKI</figcaption></figure>
-          <figure class="loc"><img src="${esc(h.herb)}" alt="Herb: ${esc(h.nazwa)}"><figcaption class="brass">${esc(h.nazwa)}</figcaption></figure>
+          <figure class="loc">${herbImg(h, `alt="Herb: ${esc(h.nazwa)}"`)}<figcaption class="brass brass--lg">${esc(h.nazwa)}</figcaption></figure>
         </div>
       </div>
       <div class="place__body">
